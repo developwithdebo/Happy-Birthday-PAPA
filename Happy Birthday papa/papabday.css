@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+body {
+    margin: 0;
+    background: #020202;
+    
+}
+
+canvas {
+    display: block
+}
+
+h1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+
+
+span.papa-image{
+   max-width: 30px;
+    padding-left: 40px;
+    display: flex;
+        flex-direction: row;
+        padding-right: 0px;
+        column-gap: 50px;
+}
+
+img {
+height: 400px;
+margin-left: 150px;
+border-radius: 100px;
+}
+
